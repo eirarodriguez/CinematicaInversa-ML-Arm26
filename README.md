@@ -8,7 +8,7 @@ El análisis biomecánico tradicional requiere resolver la cinemática inversa m
 Este proyecto propone y evalúa una metodología unificada para sustituir los optimizadores clásicos de **OpenSim** por modelos de **Aprendizaje Automático** (Regresión Lineal, MLP, SVR y XGBoost). El enfoque transforma la simulación biomecánica en un motor de inferencia directa, reduciendo la latencia a niveles compatibles con el control de exoesqueletos y prótesis (aprox. 13.77 ms).
 
 ## 📂 Estructura del Repositorio
-* `Modelos_CinematicaInversa.ipynb`: Notebook principal con el preprocesamiento de datos, entrenamiento de modelos y evaluación de resultados.
+* `main.ipynb`: Notebook principal con el preprocesamiento de datos, entrenamiento de modelos y evaluación de resultados.
 * `requirements.txt`: Archivo con las dependencias exactas necesarias para reproducir el entorno.
 * `arm26.osim`: Archivo del modelo biomecánico simplificado del miembro superior utilizado en OpenSim.
 * `movimiento_1/` a `movimiento_9/`: Carpetas que contienen las trayectorias cinemáticas generadas en las simulaciones. Cada carpeta incluye:
