@@ -10,7 +10,7 @@ Este proyecto propone y evalúa una metodología unificada para sustituir los op
 ## 📂 Estructura del Repositorio
 * `Modelos_CinematicaInversa.ipynb`: Notebook principal con el preprocesamiento de datos, entrenamiento de modelos y evaluación de resultados.
 * `requirements.txt`: Archivo con las dependencias exactas necesarias para reproducir el entorno.
-* `modelo_arm26/`: Archivo del modelo biomecánico simplificado del miembro superior utilizado en OpenSim.
+* `arm26.osim`: Archivo del modelo biomecánico simplificado del miembro superior utilizado en OpenSim.
 * `movimiento_1/` a `movimiento_9/`: Carpetas que contienen las trayectorias cinemáticas generadas en las simulaciones. Cada carpeta incluye:
   * `angulos.mot`: Archivos con las variables articulares (hombro y codo).
   * `posiciones.sto`: Archivos con las coordenadas espaciales tridimensionales de la mano.
