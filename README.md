@@ -27,6 +27,7 @@ cd CinematicaInversa-ML-Arm26
 
 # 3. Instalar las dependencias
 pip install -r requirements.txt
+```
 
 ## 📊 Resultados Principales
 El modelo **XGBoost** demostró ser la alternativa de compromiso óptima, alcanzando:
